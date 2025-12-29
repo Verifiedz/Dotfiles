@@ -3,7 +3,7 @@
 
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="agnosterzak"
+#ZSH_THEME="agnosterzak"
 
 plugins=(
     git
@@ -39,3 +39,4 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
+eval "$(starship init zsh)"
