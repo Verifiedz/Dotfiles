@@ -1,0 +1,12 @@
+bibata-cursor-theme
+brave-bin
+gtk-engine-murrine
+kenku-fm-bin
+pokemon-colorscripts-git
+ttf-victor-mono
+wallust
+waypaper
+wlogout
+wootility
+yay
+yay-debug
