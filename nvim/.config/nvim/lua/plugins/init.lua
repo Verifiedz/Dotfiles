@@ -25,4 +25,25 @@ return {
   -- 		},
   -- 	},
   -- },
+  --
+  {
+    "kawre/leetcode.nvim",
+    build = ":TSUpdate html",
+    lazy = false,
+    dependencies = {
+      "nvim-telescope/telescope.nvim",
+      "nvim-lua/plenary.nvim",
+      "MunifTanjim/nui.nvim",
+    },
+    opts = {
+      -- Set your startup language here. 
+      -- Use "python3" for Python or "csharp" for C#
+      lang = "python3", 
+      
+      storage = {
+        home = vim.fn.stdpath("data") .. "/leetcode",
+        cache = vim.fn.stdpath("cache") .. "/leetcode",
+      },
+    },
+  },
 }
