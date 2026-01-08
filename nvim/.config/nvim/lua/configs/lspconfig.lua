@@ -1,6 +1,15 @@
-require("nvchad.configs.lspconfig").defaults()
+local lspconfig = require "lspconfig"
+local nvlsp = require "nvchad.configs.lspconfig"
 
-local servers = { "html", "cssls", "clangd", "pyright" }
-vim.lsp.enable(servers)
+-- HTML/CSS Setup
+lspconfig.html.setup {
+  on_attach = nvlsp.on_attach,
+  capabilities = nvlsp.capabilities,
+}
 
--- read :h vim.lsp.config for changing options of lsp servers 
+-- The New C# Setup (csharp_ls)
+-- automatic, simple, no complex arguments needed
+lspconfig.csharp_ls.setup {
+  on_attach = nvlsp.on_attach,
+  capabilities = nvlsp.capabilities,
+}

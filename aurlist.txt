@@ -1,8 +1,16 @@
+ani-cli
 bibata-cursor-theme
 brave-bin
+cmatrix-git
 gtk-engine-murrine
 kenku-fm-bin
+manga-tui
+netcoredbg
+omnisharp-roslyn
+opentabletdriver
+pipes.sh
 pokemon-colorscripts-git
+sunshine
 ttf-victor-mono
 wallust
 waypaper

@@ -31,7 +31,8 @@ alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
-
+alias night='killall gammastep; nohup gammastep -O 3500 -b 0.5 > /dev/null 2>&1 & disown'
+alias day='killall gammastep;'
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 source <(fzf --zsh)
 
