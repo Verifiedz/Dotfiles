@@ -1,3 +1,4 @@
+7zip
 adobe-source-code-pro-fonts
 amd-ucode
 aspnet-runtime
@@ -14,6 +15,8 @@ btop
 cava
 cliphist
 dbeaver
+ddcutil
+detox
 discord
 dmidecode
 docker
@@ -24,6 +27,8 @@ dotnet-sdk
 dotnet-sdk-8.0
 efibootmgr
 fastfetch
+fd
+ffmpegthumbnailer
 fzf
 gamemode
 gammastep
@@ -45,6 +50,7 @@ inxi
 jq
 kitty
 kvantum
+less
 lib32-gamemode
 lib32-nvidia-utils
 libspng
@@ -54,6 +60,8 @@ linux-firmware
 linux-headers
 loupe
 lsd
+man-db
+man-pages
 mangohud
 mercurial
 mousepad
@@ -82,8 +90,10 @@ pamixer
 pavucontrol
 pipewire-pulse
 postgresql
+python-pip
 python-pycryptodome
 python-pyquery
+python-pyxdg
 python-requests
 python-scikit-learn
 qalculate-gtk
@@ -107,6 +117,7 @@ swaync
 tailscale
 timeshift
 tk
+tmux
 tree-sitter-cli
 ttf-droid
 ttf-fantasque-nerd
@@ -123,6 +134,11 @@ wofi
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 yad
+yazi
 yt-dlp
+zathura
+zathura-pdf-poppler
+zip
+zoxide
 zsh
 zsh-completions
