@@ -25,7 +25,7 @@ return {
       "MunifTanjim/nui.nvim",
     },
     opts = {
-      lang = "python3", 
+      lang = "csharp", 
       storage = {
         home = vim.fn.stdpath("data") .. "/leetcode",
         cache = vim.fn.stdpath("cache") .. "/leetcode",
